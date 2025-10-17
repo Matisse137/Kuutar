@@ -3,4 +3,5 @@ project(Kuutar)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(Kuutar STATIC library.cpp)
+add_library(Kuutar STATIC library.cpp
+        library.h)

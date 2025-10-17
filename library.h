@@ -1,6 +1,10 @@
 #ifndef KUUTAR_LIBRARY_H
 #define KUUTAR_LIBRARY_H
+#include <iosfwd>
 
-void hello();
+class Parser
+{
+    std::fstream file = nullptr;
+};
 
 #endif // KUUTAR_LIBRARY_H
